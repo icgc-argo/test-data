@@ -1,0 +1,18 @@
+program_id	submitter_donor_id	gender	submitter_specimen_id	specimen_tissue_source	specimen_type	submitter_sample_id	sample_type	tumour_normal_designation
+TEST-QA	Donor-1	male	specimen-1	Blood derived 	Normal	sample-1	Amplified DNA	Normal
+TEST-QA	Donor-1	male	specimen-1.1	Cerebellum 	Primary tumour	sample-1.1	Amplified DNA	Tumour
+TEST-QA	Donor-1	male	specimen-1.2	Blood derived 	Recurrent tumour	sample-1.2	Amplified DNA	Tumour
+TEST-QA	Donor-2	female	specimen-2	Esophagus	Primary tumour	sample-2	ctDNA	Tumour
+TEST-QA	Donor-3	female	specimen-3	Blood derived	Normal	sample-3	ctDNA	Normal
+TEST-QA	Donor-4	male	specimen-4	Blood derived 	Normal	sample-4	Amplified DNA	Normal
+TEST-QA	Donor-4	male	specimen-4.1	Esophagus	Primary tumour	sample-4.1	Amplified DNA	Tumour
+TEST-QA	Donor-5	male	specimen-5	Solid tissue 	Primary tumour	sample-5	Amplified DNA	Tumour
+TEST-QA	Donor-5	male	specimen-5.1	Blood derived 	Normal	sample-5.1	Amplified DNA	Normal
+TEST-QA	Donor-6	male	specimen-6.1	Blood derived 	Normal	sample-6.1	Amplified DNA	Normal
+TEST-QA	Donor-6	male	specimen-6.2	Solid tissue 	Primary tumour	sample-6.2	Amplified DNA	Tumour
+TEST-QA	Donor-7	male	specimen-7.2	Solid tissue 	Primary tumour	sample-7.2	Amplified DNA	Tumour
+TEST-QA	Donor-8	female	specimen-8	Blood derived 	Normal	sample-8	Total DNA	Normal
+TEST-QA	Donor-8	female	specimen-8.1	Blood derived 	Primary tumour	sample-8.1	Total DNA	Tumour
+TEST-QA	Donor-9	Male	specimen-9	Blood derived 	Normal	sample-9	Total DNA	Normal
+TEST-QA	Donor-10	Male	specimen-10	Blood derived 	Normal	sample-10	ctDNA	Normal
+TEST-QA	Donor-10	Male	specimen-10.1	Blood derived 	Primary tumour	sample-10.1	ctDNA	Tumour

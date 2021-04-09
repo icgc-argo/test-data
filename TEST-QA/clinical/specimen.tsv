@@ -1,0 +1,17 @@
+program_id	submitter_donor_id	submitter_specimen_id	submitter_primary_diagnosis_id	pathological_tumour_staging_system	pathological_t_category	pathological_n_category	pathological_m_category	pathological_stage_group	specimen_acquisition_interval	tumour_histological_type	specimen_anatomic_location	specimen_processing	specimen_storage	reference_pathology_confirmed	tumour_grading_system	tumour_grade	percent_tumour_cells	percent_proliferating_cells	percent_inflammatory_tissue	percent_stromal_cells	percent_necrosis
+TEST-QA	Donor-1	specimen-1	primarydiagnosis-1						4		C42.0	Fresh	Not Applicable								
+TEST-QA	Donor-1	specimen-1.1	primarydiagnosis-1	Ann Arbor staging system				Stage I	4	9691/36	C71.0	Fresh	Not Applicable	Yes	WHO grading system for CNS tumours	Grade III	0.2				
+TEST-QA	Donor-1	specimen-1.2	primarydiagnosis-1	Ann Arbor staging system				Stage I	4	9691/36	C71.0	Fresh	Not Applicable	Yes	WHO grading system for CNS tumours	Grade III	0.3	0.2	0.4	0.05	0.05
+TEST-QA	Donor-2	specimen-2	primarydiagnosis-2	AJCC 8th Edition	T1	N0	M0	Stage II	20	9691/36	C50.3			No	ISUP grading system	g1	0.1	0.1	0.1	0.6	0.1
+TEST-QA	Donor-3	specimen-3	primarydiagnosis-3						42		C15.2										
+TEST-QA	Donor-4	specimen-4	primarydiagnosis-4						12		C71.0										
+TEST-QA	Donor-4	specimen-4.1	primarydiagnosis-4	AJCC 8th Edition	T4a	N1	M1	Stage II	15	9691/36	C15.2			Unknown	ISUP grading system	gx	0.1	0.1	0.1	0.6	
+TEST-QA	Donor-5	specimen-5	primarydiagnosis-5	AJCC 7th Edition	T1	N0	M0	Stage III	1	9691/36	C25.0	Fresh	Not Applicable	Yes	ISUP grading system	G1	0.4	0.2	0.1		0.1
+TEST-QA	Donor-5	specimen-5.1	primarydiagnosis-5						1		C42.0										
+TEST-QA	Donor-6	specimen-6.1	primarydiagnosis-6						2		C42.0										
+TEST-QA	Donor-6	specimen-6.2	primarydiagnosis-6	AJCC 8th Edition	T1	N1	M0	Stage II	2	9691/36	C25.1			Yes	ISUP grading system	G2	0.1	0.6		0.1	0
+TEST-QA	Donor-7	specimen-7	primarydiagnosis-7	AJCC 8th Edition	T1	N2	M0	Stage III	2	9691/36	C25.2	Formalin fixed - buffered	Frozen in -70 freezer	Yes	ISUP grading system	G3	0.3		0.4	0.05	0.05
+TEST-QA	Donor-8	specimen-8	primarydiagnosis-8						25		C42.0										
+TEST-QA	Donor-8	specimen-8.1	primarydiagnosis-8	AJCC 8th Edition	T1	N1	M0	Stage I	31	9691/36	C25.1			Unknown	ISUP grading system	g2	0.1	0.1	0.1	0.6	0.1
+TEST-QA	Donor-9	specimen-9	primarydiagnosis-9						40		C42.0										
+TEST-QA	Donor-10	specimen-10	primarydiagnosis-10						62		C42.0										
