@@ -11,7 +11,7 @@
       "specimen": {
         "submitterSpecimenId": "specimen-3",
         "tumourNormalDesignation": "Normal",
-        "specimen_tissue_source": "Blood derived",
+        "specimenTissueSource": "Blood derived",
         "specimenType": "Normal"
       },
       "donor": {
