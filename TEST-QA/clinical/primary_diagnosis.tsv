@@ -2,12 +2,11 @@ program_id	submitter_donor_id	submitter_primary_diagnosis_id	age_at_diagnosis	ca
 TEST-QA	Donor-1	primarydiagnosis-1	51	C71.1		Clinical	Yes	7	5	Ann Arbor staging system	stage ii					Grade 1
 TEST-QA	Donor-2	primarydiagnosis-2	53	C50.2		Histology of a primary tumour	Yes		1	AJCC 8th Edition	Stage II	T1	N0	M0		Grade 0
 TEST-QA	Donor-3	primarydiagnosis-3	28	C15.2			Yes		0	AJCC 8th Edition	Stage II	T2	N0	M0		Grade 0
-TEST-QA	Donor-4	primarydiagnosis-4	19	C15.5			No		0	AJCC 8th Edition	Stage II	T4a	N1	M1		Grade 1
-TEST-QA	Donor-5	primarydiagnosis-5	20	C25.1			No		0	AJCC 8th Edition	Stage III	T1	N0	M0		Grade 0
+TEST-QA	Donor-4	primarydiagnosis-4	19	C15.5			No			AJCC 8th Edition	Stage II	T4a	N1	M1		Grade 1
+TEST-QA	Donor-5	primarydiagnosis-5	20	C25.1			No			AJCC 8th Edition	Stage III	T1	N0	M0		Grade 0
 TEST-QA	Donor-6	primarydiagnosis-6	63	C25.1		Specific tumour markers	Yes	3	2	Binet staging system	stage b					Grade 0
 TEST-QA	Donor-7	primarydiagnosis-7	56	C25.2		Specific tumour markers	Yes	7	5	AJCC 8th Edition	Stage III	T1	N2	M0		
-TEST-QA	Donor-8	primarydiagnosis-8	68	C25.9		Histology of a primary tumour	not applicable	0	0	Durie-Salmon staging system	stage iiia					
+TEST-QA	Donor-8	primarydiagnosis-8	68	C25.9		Histology of a primary tumour	not applicable			Durie-Salmon staging system	stage iiia					
 TEST-QA	Donor-9	primarydiagnosis-9	37	C18.4			No lymph nodes found in resected specimen	0		AJCC 8th Edition	Stage I	T2	N0	M0	Nausea	Grade 0
-TEST-QA	Donor-10	primarydiagnosis-10	34	C18.9			No lymph nodes found in resected specimen	0	0	AJCC 8th Edition	Stage IV	T1	N0	M0	Nausea| Anemia	Grade 1
-TEST-QA	Donor-10	primarydiagnosis-10.1	34	C44.9			Cannot be determined	0		AJCC 8th Edition	Stage I	T0	N0	M0	Nausea|Constipation|Pale Stools|Weight Loss	Grade 1
-TEST-QA	Donor-11	primarydiagnosis-11	34	C44.9			Cannot be determined	0			 				Nausea|Constipation|Pale Stools|Weight Loss	Grade 1
+TEST-QA	Donor-10	primarydiagnosis-10	34	C18.9			No lymph nodes found in resected specimen	0		AJCC 8th Edition	Stage IV	T1	N0	M0	Nausea| Anemia	Grade 1
+TEST-QA	Donor-10	primarydiagnosis-10.1	34	C44.9			Cannot be determined			AJCC 8th Edition	Stage I	T0	N0	M0	Nausea|Constipation|Pale Stools|Weight Loss	Grade 1
