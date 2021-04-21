@@ -11,7 +11,7 @@
       "specimen": {
         "submitterSpecimenId": "specimen-1.1",
         "tumourNormalDesignation": "Tumour",
-        "specimenTissueSource": "Cerebellum ",
+        "specimenTissueSource": "Cerebellum",
         "specimenType": "Primary tumour"
       },
       "donor": {

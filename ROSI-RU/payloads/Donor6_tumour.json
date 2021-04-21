@@ -11,7 +11,7 @@
       "specimen": {
         "submitterSpecimenId": "specimen-6.2",
         "tumourNormalDesignation": "Tumour",
-        "specimenTissueSource": "Solid tissue ",
+        "specimenTissueSource": "Solid tissue",
         "specimenType": "Primary tumour"
       },
       "donor": {
