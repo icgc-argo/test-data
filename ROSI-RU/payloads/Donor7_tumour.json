@@ -5,13 +5,13 @@
   },
   "samples": [
     {
-      "submitterSampleId": "sample-7.2",
+      "submitterSampleId": "sample-7",
       "matchedNormalSubmitterSampleId": "sample-7.1",
       "sampleType": "Amplified DNA",
       "specimen": {
-        "submitterSpecimenId": "specimen-7.2",
+        "submitterSpecimenId": "specimen-7",
         "tumourNormalDesignation": "Tumour",
-        "specimenTissueSource": "Solid tissue ",
+        "specimenTissueSource": "Solid tissue",
         "specimenType": "Primary tumour"
       },
       "donor": {

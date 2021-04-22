@@ -7,6 +7,7 @@ do
     echo
     echo "#### Starting submission for "$payload
     echo $payload
+    
     analysis_id=`song-client/bin/sing submit -f $payload | jq -er .analysisId`
     echo $analysis_id
     manifest=$payload".manifest.txt"

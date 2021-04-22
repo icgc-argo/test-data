@@ -35,3 +35,33 @@ To submit molecular data to a program:
 2. If needed, update the `upload.sh` directory paths in the scripts.  By default, this script is configured to work with the `TEST-QA` data set with the test data in the structure defined in this repository. 
 
 ## Launching a workflow
+
+
+Alignment Parameters: 
+Workflow URL:
+"https://github.com/icgc-argo/dna-seq-processing-wfs.git"
+
+Sample Params: 
+```
+{
+	"analysis_id": "0c78bd4c-3447-4dea-b8bd-4c34479dea01",
+	"study_id": "ROSI-RU",
+	"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+	"song_url": "https://song.rdpc-qa.cancercollaboratory.org",
+	"ref_genome_fa": "/nfs-dev-1-vol-qa-1/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa",
+	"download": {
+		"song_cpus": 2,
+		"song_mem": 2,
+		"score_cpus": 4,
+		"score_mem": 10,
+		"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+		"song_url": "https://song.rdpc-qa.cancercollaboratory.org"
+	},
+	"cpu": 6,
+	"mem": 18
+}
+```
+Workflow Params: 
+```
+      "revision": "1.5.1"
+```
