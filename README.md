@@ -1,11 +1,11 @@
 # Testing Data 
 
-Test data is required to code against. 
+Test data is required to code/test against when updating the clinical dictionaries or services. 
 
 This repository hosts test data to initialize a program with **both** clinical and molecular data. 
 
 ## Test Dataset Overview 
-The test data has been design to test several different uses cases for both molecular and clinical data. The following char summarizes the different clinical and molecular data states for different donors that are being tested. 
+The test data has been designed to test several different uses cases for both molecular and clinical data. The following chart summarizes the different clinical and molecular data states for different donors that are being tested. 
 
 | Donor ID | Primary Site | Vital Status | Gender | Clinical Complete  | T/N Status | # T  | # N | # Primary Diagnosis| # Treatments | # Follow Ups  |
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -20,6 +20,8 @@ The test data has been design to test several different uses cases for both mole
 | Donor-9 | Colon | Alive | M | No | Single | 0 | 1 | 1 |  | 1 |
 | Donor-10 | Colon | Deceased | M | No | Paired | 1 | 1 | 2 | 2 | 3 |
 # Submitting data 
+Replace the `program_id` column in all clinical files with the correct Program Code of the program you are working with. 
+
 ## 1. Registering Samples. 
 Register the samples using `sample_registration.tsv`.
 
@@ -35,7 +37,7 @@ To submit molecular data to a program:
 2. If needed, update the `upload.sh` directory paths in the scripts.  By default, this script is configured to work with the `TEST-QA` data set with the test data in the structure defined in this repository. 
 
 ## Launching a workflow
-
+### Alignment
 
 Alignment Parameters: 
 Workflow URL:
@@ -65,3 +67,8 @@ Workflow Params:
 ```
       "revision": "1.5.1"
 ```
+
+### Sanger
+
+### Mutect2
+
