@@ -1,3 +1,0 @@
-program_id	submitter_donor_id	submitter_treatment_id	drug_rxnormcui	drug_name	hormone_drug_dosage_units	cumulative_drug_dosage
-TEST-QA	Donor-3	treatment3-2	1547545	Pembrolizumab	mg/m2	14
-TEST-QA	Donor-6	treatment6-2	9939	Somatostatin	mg/m2	55
