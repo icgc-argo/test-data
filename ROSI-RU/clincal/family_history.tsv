@@ -1,0 +1,12 @@
+program_id	submitter_donor_id	family_relative_id	relative_with_cancer_history	relationship_type	gender_of_relative	age_of_relative_at_diagnosis	cancer_type_code_of_relative	relative_vital_status	cause_of_death_of_relative	relative_survival_time
+ROSI-RU	Donor-1	1	Yes	Sister	female	67	C50			688
+ROSI-RU	Donor-1	2	Yes	Mother	female	54	C50	deceased	Died of cancer	390
+ROSI-RU	Donor-2	1	Yes	Brother	male			unknown		
+ROSI-RU	Donor-3	1	Yes	Father	male	75	C25.9	alive		678
+ROSI-RU	Donor-3	2	Yes	Paternal Cousin	male	65	C25.9			
+ROSI-RU	Donor-3	3	Yes	Paternal Grandfather	male	65	C25.9			
+ROSI-RU	Donor-4	1	No	Mother	female					
+ROSI-RU	Donor-4	2	No	Mother	female					
+ROSI-RU	Donor-4	3	No	Son	male					
+ROSI-RU	Donor-4	4	No	Son	Other					
+ROSI-RU	Donor-4	5	Yes							
