@@ -1,0 +1,10 @@
+program_id	submitter_donor_id	prior_malignancy	laterality_of_prior_malignancy	age_at_comorbidity_diagnosis	comorbidity_type_code	comorbidity_treatment_status	comorbidity_treatment
+ROSI-RU	Donor-1	Yes	Left	12	E10	Yes	Regular insulin injecions twice a day. 
+ROSI-RU	Donor-2	Yes	Midline	25	E10		
+ROSI-RU	Donor-3	Yes	"Unilateral, Side not specified"		E10.2		
+ROSI-RU	Donor-4	No			I11.9		
+ROSI-RU	Donor-6	No			E10.1	Yes	
+ROSI-RU	Donor-7	No			E10.1	No	
+ROSI-RU	Donor-8	No			E66	No	
+ROSI-RU	Donor-9	No		24	K50.1	Yes	
+ROSI-RU	Donor-9	No		24	K50.0	Yes	Methotrexate

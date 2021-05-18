@@ -5,7 +5,7 @@ Test data is required to code/test against when updating the clinical dictionari
 This repository hosts test data to initialize a program with **both** clinical and molecular data. 
 
 ## Test Dataset Overview 
-The test data has been designed to test several different uses cases for both molecular and clinical data. The following chart summarizes the different clinical and molecular data states for different donors that are being tested. 
+The test data has been designed to test several different uses cases for both molecular and clinical data. The following chart summarizes the different clinical and molecular data states for different donors that are being tested. This dataset can be found in the ARGO QA Environment, with a summary of process data as found in QA RDPC [here](https://docs.google.com/spreadsheets/d/1gdKi4IoXdRzp63ZDgYHeX8Bg4wwsCJHUZ1IXpR82mCo/edit#gid=0).
 
 | Donor ID | Primary Site | Vital Status | Gender | Clinical Complete  | T/N Status | # T  | # N | # Primary Diagnosis| # Treatments | # Follow Ups  |
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -43,10 +43,10 @@ Alignment Parameters:
 Workflow URL:
 "https://github.com/icgc-argo/dna-seq-processing-wfs.git"
 
-Sample Params: 
+Sample Parameters: 
 ```
 {
-	"analysis_id": "0c78bd4c-3447-4dea-b8bd-4c34479dea01",
+	"analysis_id": "9e8df146-cb9d-4371-8df1-46cb9da37167",
 	"study_id": "ROSI-RU",
 	"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
 	"song_url": "https://song.rdpc-qa.cancercollaboratory.org",
@@ -63,12 +63,115 @@ Sample Params:
 	"mem": 18
 }
 ```
-Workflow Params: 
+Workflow Engine Parameters: 
 ```
+{
       "revision": "1.5.1"
+}
 ```
 
 ### Sanger
-
+```
+{
+  "study_id":"ROSI-RU",
+  "tumour_aln_analysis_id":"1d8b0eb1-47db-4984-8b0e-b147dba984b6",
+  "normal_aln_analysis_id":"1947f9c8-33df-491c-87f9-c833df991cdb",
+  "song_url":"https://song.rdpc-qa.cancercollaboratory.org",
+  "score_url":"https://score.rdpc-qa.cancercollaboratory.org",
+  "cpus":2,
+  "mem":6,
+  "max_retries": 3,
+  "first_retry_wait_time": 5,
+  "download":{
+    "song_cpus":2,
+    "song_mem":2,
+    "score_cpus":3,
+    "score_mem":8
+  },
+  "generateBas":{
+    "cpus":6,
+    "mem":8,
+    "ref_genome_fa":"/nfs-dev-1-vol-qa-1/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa"
+  },
+  "sangerWgsVariantCaller":{
+    "cpus":12,
+    "mem":108,
+    "ref_genome_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/core_ref_GRCh38_hla_decoy_ebv.tar.gz",
+    "vagrent_annot":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/VAGrENT_ref_GRCh38_hla_decoy_ebv_ensembl_91.tar.gz",
+    "ref_snv_indel_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/SNV_INDEL_ref_GRCh38_hla_decoy_ebv-fragment.tar.gz",
+    "ref_cnv_sv_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/CNV_SV_ref_GRCh38_hla_decoy_ebv_brass6+.tar.gz",
+    "qcset_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/qcGenotype_GRCh38_hla_decoy_ebv.tar.gz",
+    "exclude":"chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr22,chrX,chrY,chrUn%,HLA%,%_alt,%_random,chrM,chrEBV"
+  },
+  "repackSangerResults":{
+    "cpus":2,
+    "mem":4
+  },
+  "prepSangerSupplement":{
+    "cpus":2,
+    "mem":8
+  },
+  "cavemanVcfFix":{
+    "cpus":2,
+    "mem":16
+  },
+  "extractSangerCall":{
+    "cpus":2,
+    "mem":4
+  },
+  "payloadGenVariantCall":{
+    "cpus":2,
+    "mem":8
+  },
+  "prepSangerQc":{
+    "cpus":2,
+    "mem":8
+  },
+  "upload":{
+    "song_cpus":2,
+    "song_mem":2,
+    "score_cpus":3,
+    "score_mem":8
+  }
+}
+```
 ### Mutect2
+Workflow URL: 
+```
+https://github.com/icgc-argo/gatk-mutect2-variant-calling
+```
+Sample Workflow Parameters:
+```
+{
+  "study_id": "ROSI-RU",
+  "tumour_aln_analysis_id": "1d8b0eb1-47db-4984-8b0e-b147dba984b6",
+  "normal_aln_analysis_id": "1947f9c8-33df-491c-87f9-c833df991cdb",
 
+  "song_url": "https://song.rdpc-qa.cancercollaboratory.org",
+  "score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+
+  "publish_dir": "",
+  "max_retries": 3,
+  "first_retry_wait_time": 5,
+
+  "perform_bqsr": false,
+
+  "ref_fa": "/nfs-dev-1-vol-qa-1/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa",
+  "mutect2_scatter_interval_files": "/nfs-dev-1-vol-qa-1/reference/gatk-resources/mutect2.scatter_by_chr/chr*.interval_list",
+  "germline_resource_vcfs": [
+    "/nfs-dev-1-vol-qa-1/reference/gatk-resources/af-only-gnomad.pass-only.hg38.vcf.gz"
+  ],
+  "panel_of_normals": "/nfs-dev-1-vol-qa-1/reference/gatk-resources/1000g_pon.hg38.vcf.gz",
+  "contamination_variants": "/nfs-dev-1-vol-qa-1/reference/gatk-resources/af-only-gnomad.pass-only.biallelic.snp.hg38.vcf.gz",
+
+  "mem": 40,
+  "cpus": 8
+}
+```
+Workflow Engine Parameters:
+```
+  {
+    "projectDir": "/nfs-dev-1-vol-qa-1/test-projects",
+    "revision": "main"
+  }
+```
