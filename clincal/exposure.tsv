@@ -1,4 +1,4 @@
-program_id	submitter_donor_id	tobacco_smoking_status	tobacco_type	pack_years_smoked	alcohol_history	alcohol_consumption_category	alcohol_type	opiate_use	hot_drinks	red_meat	processed_meat	soft_drinks	exercise_frequency	exercise_intensity
+program_id	submitter_donor_id	tobacco_smoking_status	tobacco_type	pack_years_smoked	alcohol_history	alcohol_consumption_category	alcohol_type	opiate_use	hot_drinks_consumption	red_meat_frequency	processed_meat_frequency	soft_drinks_frequency	exercise_frequency	exercise_intensity
 ROSI-RU	Donor-1	Current reformed smoker for <= 15 years	Cigar|Cigarettes	2.5	Yes	Weekly Drinker (>=1x a week)	Beer|Liquor|Wine	Never	Yes, currently	1-3 times a month	1-3 times a month	1-3 times a month	Less than once a month	Low: No increase in the heart beat, and no perspiration
 ROSI-RU	Donor-2								Yes, currently	1-3 times a month	1-3 times a month	Once or twice a week	Once or twice a week	Moderate: Increase in the heart beat slightly with some light perspiration
 ROSI-RU	Donor-3	Current smoker	Cigarettes	3.2	Yes	Unknown	Wine	Never	Yes, currently	Less than once a month		Less than once a month		
