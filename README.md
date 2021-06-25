@@ -72,71 +72,78 @@ Workflow Engine Parameters:
 
 ### Sanger
 Workflow URL: 
+https://github.com/icgc-argo/sanger-wxs-variant-calling 
 
+Sample Workflow Parameters:
 ```
 {
-  "study_id":"ROSI-RU",
-  "tumour_aln_analysis_id":"1d8b0eb1-47db-4984-8b0e-b147dba984b6",
-  "normal_aln_analysis_id":"1947f9c8-33df-491c-87f9-c833df991cdb",
-  "song_url":"https://song.rdpc-qa.cancercollaboratory.org",
-  "score_url":"https://score.rdpc-qa.cancercollaboratory.org",
-  "cpus":2,
-  "mem":6,
-  "max_retries": 3,
-  "first_retry_wait_time": 5,
-  "download":{
-    "song_cpus":2,
-    "song_mem":2,
-    "score_cpus":3,
-    "score_mem":8
-  },
-  "generateBas":{
-    "cpus":6,
-    "mem":8,
-    "ref_genome_fa":"/nfs-dev-1-vol-qa-1/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa"
-  },
-  "sangerWgsVariantCaller":{
-    "cpus":12,
-    "mem":108,
-    "ref_genome_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/core_ref_GRCh38_hla_decoy_ebv.tar.gz",
-    "vagrent_annot":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/VAGrENT_ref_GRCh38_hla_decoy_ebv_ensembl_91.tar.gz",
-    "ref_snv_indel_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/SNV_INDEL_ref_GRCh38_hla_decoy_ebv-fragment.tar.gz",
-    "ref_cnv_sv_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/CNV_SV_ref_GRCh38_hla_decoy_ebv_brass6+.tar.gz",
-    "qcset_tar":"/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/qcGenotype_GRCh38_hla_decoy_ebv.tar.gz",
-    "exclude":"chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr22,chrX,chrY,chrUn%,HLA%,%_alt,%_random,chrM,chrEBV"
-  },
-  "repackSangerResults":{
-    "cpus":2,
-    "mem":4
-  },
-  "prepSangerSupplement":{
-    "cpus":2,
-    "mem":8
-  },
-  "cavemanVcfFix":{
-    "cpus":2,
-    "mem":16
-  },
-  "extractSangerCall":{
-    "cpus":2,
-    "mem":4
-  },
-  "payloadGenVariantCall":{
-    "cpus":2,
-    "mem":8
-  },
-  "prepSangerQc":{
-    "cpus":2,
-    "mem":8
-  },
-  "upload":{
-    "song_cpus":2,
-    "song_mem":2,
-    "score_cpus":3,
-    "score_mem":8
-  }
+	"study_id": "ROSI-RU",
+	"tumour_aln_analysis_id": "228a611f-2fff-4e3d-8a61-1f2fffbe3d69",
+	"normal_aln_analysis_id": "36585e13-6082-4553-985e-136082a55336",
+	"max_retries": 3,
+	"first_retry_wait_time": 5,
+	"cleanup": true,
+	"song_url": "https://song.rdpc-qa.cancercollaboratory.org",
+	"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+	"download": {
+		"song_url": "https://song.rdpc-qa.cancercollaboratory.org",
+		"song_cpus": 2,
+		"song_mem": 2,
+		"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
+		"score_cpus": 3,
+		"score_mem": 8
+	},
+	"sangerWxsVariantCaller": {
+		"cpus": 4,
+		"mem": 10,
+		"exclude": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr22,chrX,chrY,chrUn%,HLA%,%_alt,%_random,chrM,chrEBV",
+		"vagrent_annot": "/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/VAGrENT_ref_GRCh38_hla_decoy_ebv_ensembl_91.tar.gz",
+		"ref_genome_tar": "/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/core_ref_GRCh38_hla_decoy_ebv.tar.gz",
+		"ref_snv_indel_tar": "/nfs-dev-1-vol-qa-1/reference/sanger-variant-calling/SNV_INDEL_ref_GRCh38_hla_decoy_ebv-fragment.tar.gz"
+	},
+	"generateBas": {
+		"cpus": 2,
+		"mem": 8,
+		"ref_genome_fa": "/nfs-dev-1-vol-qa-1/reference/GRCh38_hla_decoy_ebv/GRCh38_hla_decoy_ebv.fa"
+	},
+	"repackSangerResults": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"cavemanVcfFix": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"prepSangerSupplement": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"prepSangerQc": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"extractSangerCall": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"payloadGenVariantCall": {
+		"cpus": 2,
+		"mem": 4
+	},
+	"uploadVariant": {
+		"cpus": 2,
+		"mem": 4
+	}
 }
 ```
+Workflow Engine Parameters:
+```
+  {
+    "projectDir": "/nfs-dev-1-vol-qa-1/test-projects",
+    "revision": "main"
+  }
+```
+
 ### Mutect2
 Workflow URL: 
 ```
