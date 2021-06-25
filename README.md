@@ -56,8 +56,8 @@ Sample Parameters:
 		"song_mem": 2,
 		"score_cpus": 4,
 		"score_mem": 10,
-		"score_url": "https://score.rdpc-qa.cancercollaboratory.org",
-		"song_url": "https://song.rdpc-qa.cancercollaboratory.org"
+		"score_url": "https://submission-score.rdpc-qa.cancercollaboratory.org",
+		"song_url": "https://submission-song.rdpc-qa.cancercollaboratory.org"
 	},
 	"cpu": 6,
 	"mem": 18
