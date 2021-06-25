@@ -71,6 +71,8 @@ Workflow Engine Parameters:
 ```
 
 ### Sanger
+Workflow URL: 
+
 ```
 {
   "study_id":"ROSI-RU",
@@ -144,8 +146,8 @@ Sample Workflow Parameters:
 ```
 {
   "study_id": "ROSI-RU",
-  "tumour_aln_analysis_id": "1d8b0eb1-47db-4984-8b0e-b147dba984b6",
-  "normal_aln_analysis_id": "1947f9c8-33df-491c-87f9-c833df991cdb",
+  "tumour_aln_analysis_id": "2abd861d-39fc-4f9f-bd86-1d39fc9f9f6f",
+  "normal_aln_analysis_id": "a9ba1bc5-ac14-40d7-ba1b-c5ac1490d784",
 
   "song_url": "https://song.rdpc-qa.cancercollaboratory.org",
   "score_url": "https://score.rdpc-qa.cancercollaboratory.org",
