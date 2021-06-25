@@ -1,8 +1,8 @@
 program_id	submitter_donor_id	tobacco_smoking_status	tobacco_type	pack_years_smoked	alcohol_history	alcohol_consumption_category	alcohol_type	opiate_use	hot_drinks_consumption	red_meat_frequency	processed_meat_frequency	soft_drinks_frequency	exercise_frequency	exercise_intensity
 ROSI-RU	Donor-1	Current reformed smoker for <= 15 years	Cigar|Cigarettes	2.5	Yes	Weekly Drinker (>=1x a week)	Beer|Liquor|Wine	Never	Yes, currently	1-3 times a month	1-3 times a month	1-3 times a month	Less than once a month	Low: No increase in the heart beat, and no perspiration
 ROSI-RU	Donor-2								Yes, currently	1-3 times a month	1-3 times a month	Once or twice a week	Once or twice a week	Moderate: Increase in the heart beat slightly with some light perspiration
-ROSI-RU	Donor-3	Current smoker	Cigarettes	3.2	Yes	Unknown	Wine	Never	Yes, currently	Less than once a month		Less than once a month		
-ROSI-RU	Donor-5				Yes	Social Drinker (> once a month, < once a week)			Yes, currently	Less than once a month				
+ROSI-RU	Donor-3	Current smoker	Cigarettes	3.2	Yes	Unknown		Never	Yes, currently	Less than once a month		Less than once a month		
+ROSI-RU	Donor-5				Yes	Social Drinker (> once a month, < once a week)	Beer		Yes, currently	Less than once a month				
 ROSI-RU	Donor-7	Lifelong non-smoker (<100 cigarettes smoked in lifetime)			Yes	Daily Drinker	Beer|Liquor|Wine		Yes, currently	Never	Never	Never		
 ROSI-RU	Donor-9	Smoking history not documented			No			Unknown		Once or twice a week	Less than once a month			
-ROSI-RU	Donor-10			1	No		Beer|Liquor|Wine	Yes, only in the past		Once or twice a week	Less than once a month	Every day	Most days but not every day	Vigorous: Increase in the heart beat substantially with heavy perspiration
+ROSI-RU	Donor-10				No			Yes, only in the past		Once or twice a week	Less than once a month	Every day	Most days but not every day	Vigorous: Increase in the heart beat substantially with heavy perspiration
