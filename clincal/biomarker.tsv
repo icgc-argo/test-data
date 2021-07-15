@@ -2,8 +2,8 @@ program_id	submitter_donor_id	submitter_specimen_id	submitter_primary_diagnosis_
 ROSI-RU	Donor-1	specimen-1					4	8	1			BRCA1			0.2	Cannot be determined	Negative												Negative	unknown
 ROSI-RU	Donor-2		primarydiagnosis-2												0.5	Equivocal	Equivocal								Positive	Positive				
 ROSI-RU	Donor-3			treatment3-1										Total ER Allred score of 1																
-ROSI-RU	Donor-4				visit4-1							BRCA1		Total ER Allred score of 1																
-ROSI-RU	Donor-4				visit4-1									Total ER Allred score of 1																
+ROSI-RU	Donor-4				visit4-1							BRCA1		Total ER Allred score of 2																
+ROSI-RU	Donor-4				visit4-2									Total ER Allred score of 1																
 ROSI-RU	Donor-4					13								Total ER Allred score of 2													Positive	Positive		
 ROSI-RU	Donor-5	specimen-5																												
 ROSI-RU	Donor-6		primarydiagnosis-6													Not applicable									unknown					
