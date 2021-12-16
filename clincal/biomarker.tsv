@@ -1,0 +1,19 @@
+program_id	submitter_donor_id	submitter_specimen_id	submitter_primary_diagnosis_id	submitter_treatment_id	submitter_follow_up_id	test_interval	ca19-9_level	crp_levels	ldl_level	anc	alc	brca_carrier	er_status	er_allred_score	er_percent_positive	her2_ihc_status	her2_ish_status	pr_status	pr_allred_score	pr_percent_positive	pd-l1_status	alk_ihc_status	alk_ihc_intensity	alk_fish_status	ros1_ihc_status	pan-trk_ihc_status	ret_fish_status	trk_ihc_status	hpv_ihc_status	hpv_dna_status
+ROSI-RU	Donor-1	specimen-1					4	8	1			BRCA1			0.2	Cannot be determined	Negative												Negative	unknown
+ROSI-RU	Donor-2		primarydiagnosis-2												0.5	Equivocal	Equivocal								Positive	Positive				
+ROSI-RU	Donor-3			treatment3-1										Total ER Allred score of 1																
+ROSI-RU	Donor-4				visit4-1							BRCA1		Total ER Allred score of 2																
+ROSI-RU	Donor-4				visit4-2									Total ER Allred score of 1																
+ROSI-RU	Donor-4					13								Total ER Allred score of 2													Positive	Positive		
+ROSI-RU	Donor-5	specimen-5																												
+ROSI-RU	Donor-6		primarydiagnosis-6													Not applicable									unknown					
+ROSI-RU	Donor-7			treatment7-1										Total ER Allred score of 5		Not applicable									negative					
+ROSI-RU	Donor-8				visit8-1											Not applicable									positive				Negative	Negative
+ROSI-RU	Donor-9					25										Not applicable									unknown				Negative	Negative
+ROSI-RU	Donor-10					100										Not applicable									Not applicable	Not applicable			Negative	Negative
+																														
+																														
+																														
+																														
+																														
+																														
