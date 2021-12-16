@@ -1,0 +1,59 @@
+{
+  "studyId" : "TEST-PR",
+  "analysisType" : {
+    "name" : "variant_calling"
+  },
+  "samples" : [
+    {
+      "submitterSampleId" : "COLO-829",
+      "sampleType" : "Total DNA",
+      "matchedNormalSubmitterSampleId" : "COLO-829-BL",
+      "specimen" : {
+        "submitterSpecimenId" : "COLO-829",
+        "tumourNormalDesignation" : "Tumour",
+        "specimenTissueSource" : "Blood derived",
+        "specimenType" : "Cell line - derived from tumour"
+      },
+      "donor" : {
+        "submitterDonorId" : "COLO-829",
+        "gender" : "Female"
+      }
+    }
+    ],
+  "files" : [
+    {
+      "info" : {
+        "analysis_tools" : [
+                    "GATK-Mutect2"
+                ],
+        "data_category" : "Simple Nucleotide Variation"
+      },
+      "analysisId" : "452737be-ba9c-40a5-a737-beba9cb0a54c",
+      "fileName" : "TEST-PR.DO250183.SA610229.wxs.20210324.gatk-mutect2.somatic.snv.vcf.gz",
+      "fileType" : "VCF",
+      "fileMd5sum" : "c1f21edb2cf809de34776b08fd443bd1",
+      "fileSize" : 32313,
+      "fileAccess" : "controlled",
+      "dataType" : "Raw SNV Calls"
+    },
+    {
+      "info" : {
+        "analysis_tools" : [
+                    "GATK-Mutect2"
+                ],
+        "data_category" : "Simple Nucleotide Variation"
+      },
+      "analysisId" : "452737be-ba9c-40a5-a737-beba9cb0a54c",
+      "fileName" : "TEST-PR.DO250183.SA610229.wxs.20210324.gatk-mutect2.somatic.snv.vcf.gz.tbi",
+      "fileType" : "TBI",
+      "fileMd5sum" : "2aba9311c7351cca381a91acbee293f0",
+      "fileSize" : 215,
+      "fileAccess" : "controlled",
+      "dataType" : "VCF Index"
+    }
+    ],
+  "experiment" : {
+    "experimental_strategy" : "WXS",
+    "platform" : "ILLUMINA"
+  }
+}

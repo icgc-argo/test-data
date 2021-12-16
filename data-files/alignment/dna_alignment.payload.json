@@ -1,0 +1,61 @@
+{
+  "analysisType": {
+    "name": "sequencing_alignment"
+  },
+  "studyId": "TEST-PR",
+  "files": [
+    {
+      "fileName": "TEST-PR.DO250122.SA610149.wgs.20211216.aln.bam",
+      "fileType": "BAM",
+      "fileSize": 13381,
+      "fileMd5sum": "24dd3b09c323d8cb3c331c82cb255dee",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads",
+      "info": {
+        "data_category": "Sequencing Reads",
+        "data_subtypes": null,
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ]
+      }
+    },
+    {
+      "fileName": "TEST-PR.DO250122.SA610149.wgs.20211216.aln.bam.bai",
+      "fileType": "BAI",
+      "fileSize": 352,
+      "fileMd5sum": "55fb7340f369e3bd853b62624cb2ee1c",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads Index",
+      "info": {
+        "data_category": "Sequencing Reads",
+        "data_subtypes": null,
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ]
+      }
+    }
+  ],
+  "samples": [
+    {
+      "submitterSampleId": "HCC1143_BAM_INPUT",
+      "matchedNormalSubmitterSampleId": null,
+      "sampleType": "Total DNA",
+      "specimen": {
+        "submitterSpecimenId": "HCC1143_BAM_INPUT",
+        "tumourNormalDesignation": "Normal",
+        "specimenTissueSource": "Blood derived",
+        "specimenType": "Cell line - derived from normal"
+      },
+      "donor": {
+        "gender": "Female",
+        "submitterDonorId": "HCC1143"
+      }
+    }
+  ],
+  "experiment": {
+    "platform": "ILLUMINA",
+    "experimental_strategy": "WGS"
+  }
+}
