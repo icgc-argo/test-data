@@ -1,0 +1,79 @@
+{
+  "studyId": "TCRB-CA",
+  "analysisType": {
+    "name": "sequencing_experiment"
+  },
+  "samples": [
+    {
+      "submitterSampleId": "TCRBOA7T-RNA",
+      "matchedNormalSubmitterSampleId": null,
+      "sampleType": "Total RNA",
+      "specimen": {
+        "submitterSpecimenId": "TCRBOA7T-RNA",
+        "tumourNormalDesignation": "Tumour",
+        "specimenTissueSource": "Lymph node",
+        "specimenType": "Primary tumour"
+      },
+      "donor": {
+        "gender": "Male",
+        "submitterDonorId": "TCRBOA7"
+      }
+    }
+  ],
+  "files": [
+    {
+      "info": {
+        "data_category": "Sequencing Reads"
+      },
+      "fileName": "TCRBOA7-T-RNA.read1.fastq.gz",
+      "fileSize": 11486306574,
+      "fileType": "FASTQ",
+      "fileMd5sum": "7a6bf37c44329838417d64b8e8b8dcda",
+      "fileAccess": "controlled",
+      "dataType": "Submitted Reads"
+    },
+    {
+      "info": {
+        "data_category": "Sequencing Reads"
+      },
+      "fileName": "TCRBOA7-T-RNA.read2.fastq.gz",
+      "fileSize": 11609181638,
+      "fileType": "FASTQ",
+      "fileMd5sum": "c8f2e4f0f6389823b4750ac069c1fefa",
+      "fileAccess": "controlled",
+      "dataType": "Submitted Reads"
+    }
+  ],
+  "experiment": {
+    "dv200": "90%",
+    "experimental_strategy": "RNA-Seq",
+    "library_isolation_protocol": null,
+    "library_preparation_kit": null,
+    "library_strandedness": "FIRST_READ_ANTISENSE_STRAND",
+    "platform": "ILLUMINA",
+    "platform_model": "Illumina HiSeq 2000",
+    "rin": 9,
+    "sequencing_center": "BCM",
+    "sequencing_date": "2014-12-01",
+    "spike_ins_concentration": null,
+    "spike_ins_fasta": null,
+    "spike_ins_included": null,
+    "submitter_sequencing_experiment_id": "TCRB-OA-7T-RNA"
+  },
+  "read_group_count": 1,
+  "read_groups": [
+    {
+      "file_r1": "TCRBOA7-T-RNA.read1.fastq.gz",
+      "file_r2": "TCRBOA7-T-RNA.read2.fastq.gz",
+      "insert_size": 250,
+      "is_paired_end": true,
+      "library_name": "IWG_DWHVIP.14-26326-T-1_2pA",
+      "platform_unit": "TCRBOA7T-RNA",
+      "read_group_id_in_bam": null,
+      "read_length_r1": 101,
+      "read_length_r2": 101,
+      "sample_barcode": "ATCG",
+      "submitter_read_group_id": "TCRBOA7T-RNA"
+    }
+  ]
+}
