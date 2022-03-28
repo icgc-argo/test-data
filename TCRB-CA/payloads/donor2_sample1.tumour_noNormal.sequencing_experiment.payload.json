@@ -11,7 +11,7 @@
     "experimental_strategy": "RNA-Seq",
     "sequencing_date": "2021-04-21",
     "library_isolation_protocol": null,
-    "library_prepation_kit": null,
+    "library_preparation_kit": null,
     "library_strandedness": "FIRST_READ_ANTISENSE_STRAND",
     "rin": 9,
     "dv200": "90%",
